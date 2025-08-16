@@ -300,6 +300,16 @@ export default function Home() {
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4 py-8">
           <div className="max-w-2xl mx-auto">
+            {/* 標題 */}
+            <div className="text-center mb-8">
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+                來跟我的"AI"機器人聊天
+              </h1>
+              <p className="text-gray-600 text-lg">
+                輸入您的問題，AI 將為您提供智能回應
+              </p>
+            </div>
+
             {/* 輸入區域 */}
             <div className="flex gap-3 mb-6">
               <input
