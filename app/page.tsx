@@ -303,7 +303,7 @@ export default function Home() {
             {/* 標題 */}
             <div className="text-center mb-8">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-                來跟我的"AI"機器人聊天
+                來跟我的&ldquo;AI&rdquo;機器人聊天
               </h1>
               <p className="text-gray-600 text-lg">
                 輸入您的問題，AI 將為您提供智能回應
